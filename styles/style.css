@@ -224,6 +224,14 @@ table {
   text-align: center;
 }
 
+.row-mycontent {
+  display: flex;
+  justify-content: space-around;
+}
+.col-mycontent {
+  display: flex;
+  flex-direction: column;
+}
 
 footer {
   background-color: rgb(22, 22, 22);
@@ -233,3 +241,4 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
